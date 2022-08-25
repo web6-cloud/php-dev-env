@@ -1,0 +1,19 @@
+{
+    "name": "web6/php-dev-env",
+    "description": "WEB6's Dockerized PHP Dev Env",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "W6\\DevEnv\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "WEB6 Cloud",
+            "email": "hello@web6.cloud"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}

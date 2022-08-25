@@ -1,0 +1,24 @@
+version: '2.1'
+
+networks:
+  proxy:
+    name: proxy
+    external: true
+  internal:
+    internal: true
+
+services:
+  db:
+    extends:
+      file: db/docker-compose.override.yml
+      service: db
+  dba:
+    extends:
+      file: dba/docker-compose.override.yml
+      service: dba
+  php:
+    extends:
+      file: php/docker-compose.override.yml
+      service: php
+    depends_on:
+      - db

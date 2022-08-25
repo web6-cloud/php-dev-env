@@ -1,0 +1,45 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"conventionalCommits.scopes": [
+			"Setup"
+		]
+	},
+	"extensions": {
+		"recommendations": [
+			"junstyle.php-cs-fixer",
+			"formulahendry.auto-close-tag",
+			"matt-rudge.auto-open-preview-panel",
+			"formulahendry.auto-rename-tag",
+			"aaron-bond.better-comments",
+			"coenraads.bracket-pair-colorizer-2",
+			"kamikillerto.vscode-colorize",
+			"vivaxy.vscode-conventional-commits",
+			"ms-azuretools.vscode-docker",
+			"mikestead.dotenv",
+			"editorconfig.editorconfig",
+			"usernamehw.errorlens",
+			"eamodio.gitlens",
+			"exiasr.hadolint",
+			"oderwat.indent-rainbow",
+			"yzhang.markdown-all-in-one",
+			"davidanson.vscode-markdownlint",
+			"pkief.material-icon-theme",
+			"christian-kohler.path-intellisense",
+			"ibm.output-colorizer",
+			"neilbrayfield.php-docblocker",
+			"felixfbecker.php-intellisense",
+			"mehedidracula.php-namespace-resolver",
+			"esbenp.prettier-vscode",
+			"earshinov.simple-alignment",
+			"tyriar.sort-lines",
+			"shardulm94.trailing-spaces",
+			"redhat.vscode-yaml",
+			"Gruntfuggly.todo-tree"
+		]
+	}
+}

@@ -1,0 +1,24 @@
+{
+  "name": "php-dev-env",
+  "version": "1.0.0",
+  "description": "WEB6's Dockerized PHP Dev Env",
+  "main": ".eslintrc.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@commitlint/cli": "^17.0.3",
+    "@commitlint/config-conventional": "^17.0.3",
+    "husky": "^8.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@web6.github.com:web6-cloud/php-dev-env.git"
+  },
+  "author": "",
+  "license": "ISC"
+}
